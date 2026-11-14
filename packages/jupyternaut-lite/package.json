@@ -105,6 +105,9 @@
     "extension": true,
     "outputDir": "../../python/jupyternaut-lite/jupyternaut_lite/labextension",
     "schemaDir": "schema",
+    "disabledExtensions": [
+      "@jupyter-ai/router:plugin"
+    ],
     "sharedPackages": {
       "@emotion/react": {
         "bundled": true,
